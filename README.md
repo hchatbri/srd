@@ -31,3 +31,5 @@ If you use SRD, please cite our work:
   organization={IEEE}
 
 }
+
+Paper: https://www.researchgate.net/profile/Paul_Kwan/publication/261163412_Sketch-Based_Image_Retrieval_by_Size-Adaptive_and_Noise-Robust_Feature_Description/links/555abdeb08aeaaff3bfad17b.pdf
