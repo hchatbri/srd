@@ -83,7 +83,8 @@ class SRD():
         self.feature_histogram /= len(self.foreground_pixels)
 
 
-    ''' Returns the histogram intersection distance between two images '''
+    ''' Returns the distance between two images, using the histogram intersection distance '''
+    ''' The distance is in [0, 1]. The smaller it gets, the more similar the images are '''
     @staticmethod
     def distance(descriptor_1, descriptor_2):
         d = 0
