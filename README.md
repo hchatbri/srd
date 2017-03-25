@@ -4,7 +4,7 @@ SRD is a shape descriptor for binary images
 
 ## Installation
 
-git clone https://github.com/hchatbri/srd.git
+$ git clone https://github.com/hchatbri/srd.git
 
 ## Usage
 
