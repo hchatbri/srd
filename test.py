@@ -1,7 +1,6 @@
 from PIL import Image
 from SRD import SRD
 
-
 descriptor_1 = SRD(img=Image.open("camel1.png"))
 descriptor_1.extract_features()
 print("feature extraction done.")
@@ -13,7 +12,6 @@ print("feature extraction done.")
 descriptor_3 = SRD(img=Image.open("bone.png"))
 descriptor_3.extract_features()
 print("feature extraction done.")
-
 
 d = SRD.distance(descriptor_1, descriptor_2)
 print("distance between camels = {}".format(d))
